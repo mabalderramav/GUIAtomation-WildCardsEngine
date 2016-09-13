@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
  * Test for {@link WildsTest}
  */
 public class WildsTest {
-    final static String HAYSTACK = "Once upon a midnight dreary, while I pondered, weak and weary";
+    private final static String HAYSTACK = "Once upon a midnight dreary, while I pondered, weak and weary";
 
     @Test
     public void normalSearchTest_WhenWordIsOnce() {
